@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color: grey;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.photo {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.my-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.hero h1,
+h2,
+p {
+  margin: 10px;
+}
+
+.bord {
+  width: 60%;
+  margin: 20px auto;
+  border: 3px solid rgba(182, 180, 180, 0.845);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  border-color: gray;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.Contact h3 {
+  margin: 10px;
+}
+
+.my-info {
+  margin: 10px;
+  padding: 25px;
+  background-color: rgb(3 123 253);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.my-info a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.link {
+  display: inline-block;
+  margin: 20px 10px 0 0;
+
+}
+
+.my-acount h3 {
+  margin-left: 10px;
+}
+
+hr {
+
+  border: none;
+  height: 1px;
+  background-color: gray;
+  margin: 20px 0;
+
+}
+
+.Experience {
+  margin-left: 10px;
+}
+
+.Experience h3 {
+  display: inline;
+}
+
+.list-experience ul {
+
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.list-experience li {
+  color: aliceblue;
+  margin: 5px;
+  padding: 30px;
+  background-color: rgb(3 123 253);
+  border-radius: 5px;
+}
+
+.Education h3 {
+  display: inline;
+}
+
+.Education {
+  margin-left: 10px;
+}
+
+.list-education ul {
+
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.list-education li {
+
+  color: aliceblue;
+  margin: 5px;
+  padding: 30px;
+  background-color: rgb(3 123 253);
+  border-radius: 5px;
+
+
+}
+
+.Skill h3 {
+  display: inline;
+}
+
+.list-skills ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.list-skills li {
+  color: white;
+  text-align: center;
+  width: 150px;
+  margin: 10px;
+  padding: 30px;
+  background-color: rgb(3, 123, 253);
+  border-radius: 5px;
+}
+
+.Interests h3 {
+  display: inline;
+}
+
+.list-interests ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.list-interests li {
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  width: 150px;
+  margin: 10;
+  padding: 30px;
+  background-color: rgb(3, 123, 253);
+  border-radius: 5px;
+}
